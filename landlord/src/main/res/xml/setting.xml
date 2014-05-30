@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preference_root" >
+
+    <CheckBoxPreference
+        android:key="GreetingMsg"
+        android:title="추가 인사말 표시"
+        android:summary="Check하면 추가 인사말을 표시 합니다"
+        android:defaultValue="true" />
+</PreferenceScreen>

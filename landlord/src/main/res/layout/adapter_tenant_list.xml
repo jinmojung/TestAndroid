@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/labelStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="세입자이름"
+            android:layout_weight="1" />
+        <TextView
+            style="@style/labelStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:id="@+id/nameTxt"
+            android:layout_weight="1" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/labelStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="문자 키워드"
+            android:layout_weight="1" />
+
+        <TextView
+            style="@style/labelStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="smsKeyWord"
+            android:id="@+id/smsKeyWordTxt"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/labelStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="월세"
+            android:layout_weight="1" />
+
+
+        <TextView
+            style="@style/labelStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="price"
+            android:id="@+id/priceTxt"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
