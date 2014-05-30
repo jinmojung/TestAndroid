@@ -161,6 +161,7 @@ public class MainActivity extends ActionBarActivity {
             listAdapter =  new RecallDetailContentListAdapter(getActivity().getApplicationContext(),R.layout.adapter_retail_list);
             listView.setAdapter(listAdapter);
 
+
             Log.i("test11", "4444444444444");
             Gson gson = new Gson();
             RequestModelQueryPageable pageQuery = new RequestModelQueryPageable();
