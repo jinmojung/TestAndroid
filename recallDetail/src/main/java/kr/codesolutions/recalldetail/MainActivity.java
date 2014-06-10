@@ -1,15 +1,11 @@
 package kr.codesolutions.recalldetail;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-
-import android.support.v7.app.ActionBarActivity;
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.os.Bundle;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -23,6 +19,10 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
 
 import kr.codesolutions.recalldetail.adapter.RecallDetailContentListAdapter;
 import kr.codesolutions.recalldetail.http.HttpClient;
@@ -182,6 +182,7 @@ public class MainActivity extends ActionBarActivity {
             Log.i("test11", "pageQuery="+result);
             RequestParams params = new RequestParams();
             params.put("model_query_pageable", result);
+            params.put("model_query_distinct", "model");
             HttpClient.get(params, new AsyncHttpResponseHandler() {
                 @Override
                 public void onSuccess(String content) {

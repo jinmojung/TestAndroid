@@ -7,4 +7,43 @@
     <string name="title_section3">Section 3</string>
     <string name="action_settings">Settings</string>
 
+    <string-array name="recallDetailContent">
+        <item>model</item>
+        <item>recallNationType</item>
+        <item>harmCause</item>
+        <item>makeTerm1</item>
+        <item>makeTerm2</item>
+        <item>makeAmount</item>
+        <item>serialNumber</item>
+        <item>accidentExam</item>
+        <item>actionTerm1</item>
+        <item>confirmUID</item>
+        <item>recallMeans</item>
+        <item>recallState</item>
+        <item>importCompany</item>
+        <item>actionTerm2</item>
+        <item>linkID</item>
+        <item>harmLevel</item>
+        <item>makingNation</item>
+        <item>recallActionVol</item>
+        <item>harmContents</item>
+        <item>closeCheck</item>
+        <item>recallType</item>
+        <item>sellAmount</item>
+        <item>sellTerm1</item>
+        <item>sellTerm2</item>
+        <item>companyName</item>
+        <item>rc_req_No</item>
+        <item>recallAction</item>
+        <item>publicDate</item>
+        <item>trademark</item>
+        <item>productContents</item>
+        <item>saleCompany</item>
+        <item>linkURL</item>
+        <item>recallAmount</item>
+        <item>productName</item>
+        <item>harmFlawInfo</item>
+        <item>actions</item>
+    </string-array>
+
 </resources>

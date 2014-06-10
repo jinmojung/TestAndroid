@@ -1,6 +1,12 @@
 package kr.codesolutions.recalldetail.vo;
 
 
+import android.util.Log;
+
+import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by jinmo on 2014-05-28.
  */
@@ -329,4 +335,16 @@ public class RecallDetailContent extends BaseVo {
     public void setActions(String actions) {
         this.actions = actions;
     }
+
+    public static List<String> getList(){
+        List<String> result =  new ArrayList<String>();
+        Class<RecallDetailContent> cls = RecallDetailContent.class;
+        Field[] declaredFields = cls.getDeclaredFields();
+        for(Field declaredField:declaredFields){
+            result.add(new String(declaredField.getName()));
+        }
+        return result;
+    }
+
+
 }

@@ -10,11 +10,25 @@
         <activity
             android:name="kr.codesolutions.recalldetail.MainActivity"
             android:label="@string/app_name" >
-            <intent-filter>
+            <!--<intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+
+        <activity
+            android:name="kr.codesolutions.recalldetail.SearchActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name="kr.codesolutions.recalldetail.ResultActivity"
+            android:label="@string/app_name" >
         </activity>
     </application>
 
